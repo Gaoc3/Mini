@@ -1,0 +1,28 @@
+button {
+  width: 50px;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/667/667421.png);
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: none;
+}
+
+button:hover {
+  background-color: transparent; 
+  border: none; 
+  box-shadow: none; 
+}
+
+.st-emotion-cache-136abk1,
+.st-emotion-cache-ubj4ms,
+.st-emotion-cache-h4xjwg,
+.st-emotion-cache-7whmup,
+.st-emotion-cache-oblmjz {
+  height: auto;
+}
