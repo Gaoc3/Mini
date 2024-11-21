@@ -1,0 +1,84 @@
+<style>
+    @keyframes shadowPulse {
+        0% {
+            box-shadow: 0 0 12px rgba(173, 216, 230, 0.6), 0 0 12px rgba(147, 112, 219, 0.6), 0 0 12px rgba(255, 182, 193, 0.6);
+        }
+        50% {
+            box-shadow: 0 0 15px rgba(173, 216, 230, 0.7), 0 0 15px rgba(147, 112, 219, 0.7), 0 0 15px rgba(255, 182, 193, 0.7);
+        }
+        100% {
+            box-shadow: 0 0 12px rgba(173, 216, 230, 0.6), 0 0 12px rgba(147, 112, 219, 0.6), 0 0 12px rgba(255, 182, 193, 0.6);
+        }
+    }
+
+    .icon-button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        overflow: hidden;
+        border: none;
+        padding: 0;
+        margin: 10px;
+        border-radius: 50%;
+        box-shadow: 0 0 8px rgba(173, 216, 230, 0.4), 0 0 8px rgba(147, 112, 219, 0.4), 0 0 8px rgba(255, 182, 193, 0.4);
+        transition: box-shadow 0.5s ease-in-out;
+    }
+
+    .icon-button:hover {
+        animation: shadowPulse 2s infinite alternate ease-in-out;
+    }
+
+    .icon-button img {
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+        display: block;
+        border: none;
+        background: none;
+        border-radius: 50%;
+        margin: 0;
+    }
+</style>
+
+<a 
+    contenteditable="false" 
+    href="https://www.instagram.com/mtsky.sensei/" 
+    rel="noopener noreferrer" 
+    style="color: inherit; text-decoration: none;" 
+    target="_blank"
+    class="icon-button"
+>
+    <img 
+        src="https://cdn-icons-png.flaticon.com/512/3670/3670125.png"
+        alt="Icon 1"
+    />
+</a>
+
+<a 
+    contenteditable="false" 
+    href="https://t.me/n_a_r_f" 
+    rel="noopener noreferrer" 
+    style="color: inherit; text-decoration: none;" 
+    target="_blank"
+    class="icon-button"
+>
+    <img 
+        src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
+        alt="Icon 2"
+    />
+</a>
+
+<a 
+    contenteditable="false" 
+    href="https://github.com/Gaoc3" 
+    rel="noopener noreferrer" 
+    style="color: inherit; text-decoration: none;" 
+    target="_blank"
+    class="icon-button"
+>
+    <img 
+        src="https://cdn-icons-png.flaticon.com/512/270/270798.png"
+        alt="Icon 3"
+    />
+</a>
